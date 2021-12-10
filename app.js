@@ -1,7 +1,6 @@
 const correctAnswers = ['B', 'B', 'B', 'B'];
 const form = document.querySelector('.quiz-form');
 const open = document.querySelector('.result');
-const popup = document.querySelector('.popup-wrapper');
 
 form.addEventListener('submit', e =>{
     e.preventDefault();
